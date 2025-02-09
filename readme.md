@@ -31,3 +31,7 @@ The dataset used for this project is derived from the [House Prices - Advanced R
 4. **Setting up Virtual Environment using Pipenv**  
    - Install and initialize a virtual environment using `pipenv` to manage dependencies effectively.  
    - Add essential libraries and packages required for the project.
+
+
+
+# AWS: https://961341512217.signin.aws.amazon.com/console
