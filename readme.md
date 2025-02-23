@@ -70,4 +70,25 @@ The dataset used for this project is derived from the [House Prices - Advanced R
    - The SalePrice variable was transformed using log transformation to normalize skewness.
    - The 'Id' column was removed as it does not contribute to prediction.
 
-# Week 3 - Feature Engineering and Feature Selection (In Progress)
+# Week 3 - Feature Engineering and Feature Selection
+
+## Tasks
+
+1. **New features were created to enhance model performance**
+   - Age: Difference between YrSold and YearBuilt.
+   - TotalBath: Total number of bathrooms, weighting half-baths as 0.5.
+   - TotalRooms: Sum of total rooms above ground and bedrooms.
+   - TotalFlrSF: Total floor square footage.
+   - LotFrontage_Bin: Binned lot frontage into Low, Medium, and High using pd.qcut().
+   - NeighborhoodQuality: Mean SalePrice by neighborhood mapped to all houses.
+   - IsHighSeason: Flag indicating if the sale occurred between April-August.
+
+2. **Feature Scaling and Encoding**
+   - RobustScaler was applied to numerical features to handle outliers
+   - One-Hot Encoding was applied to categorical features
+
+3. **Feature Selection Using Random Forest**
+   - A Random Forest Regressor was trained to determine feature importance
+   - The top 30 features were selected for the final dataset
+
+# Week 4 - In Progress
