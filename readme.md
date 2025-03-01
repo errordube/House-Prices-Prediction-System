@@ -91,4 +91,47 @@ The dataset used for this project is derived from the [House Prices - Advanced R
    - A Random Forest Regressor was trained to determine feature importance
    - The top 30 features were selected for the final dataset
 
-# Week 4 - In Progress
+# Week 4 - Supervised Model Building
+
+## Tasks
+
+1. **Model Training with Random Forest Regressor**
+   - A Random Forest Regressor was initialized with 100 estimators and trained on the dataset.
+   - A Gradient Boosting Regressor was initialized and trained on the dataset.
+   - Model Training with XGBoost
+
+2. **Model Predictions**
+
+   - Predictions were generated on the training set.
+
+3. **Model Evaluation**
+
+   - The model was evaluated using Mean Squared Error (MSE) and R² Score:
+
+   - Results: MSE: 0.003 ; R² Score: 0.984 (indicating high model performance on the training data)
+   - MSE: 0.007; R² Score: 0.956 (GBR)
+   - MSE: 0.003; R² Score: 0.980 (XGBoost)
+
+4. **Cross-Validation (CV) to Assess Model Stability**
+
+   - Cross-validation with 5 folds was used to check model generalization.
+
+   - Results: Mean MSE: 0.02; MSE Scores across folds: [0.016, 0.020, 0.018, 0.016, 0.019]
+   - Mean MSE: 0.016 (GBR)
+   - Mean MSE: 0.016 (XGBoost)
+
+5. **Cross-Validation for R² Score**
+
+   - R² Score was calculated using cross-validation
+   - Results: Mean R²: 0.89; R² Scores across folds: [0.88, 0.88, 0.87, 0.88, 0.87]
+   - Mean R² Score: 0.901 (GBR)
+   - Mean R² Score: 0.898 (XGBoost)
+
+High R² score on the training set indicates strong model performance.
+Cross-validation results suggest good generalization capability.
+Low MSE confirms that the model makes accurate predictions.
+Gradient Boosting Regressor achieved a Mean R² of 0.901, while XGBoost achieved 0.898.
+XGBoost had the lowest MSE (0.003) on training, indicating strong learning capability.
+
+
+# Week 5 - In Progress
