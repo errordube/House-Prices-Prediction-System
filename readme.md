@@ -134,4 +134,18 @@ Gradient Boosting Regressor achieved a Mean R² of 0.901, while XGBoost achieved
 XGBoost had the lowest MSE (0.003) on training, indicating strong learning capability.
 
 
-# Week 5 - In Progress
+# Week 5 - Hyperparameter Tuning, Model Evaluation and Model Selection
+
+1. **Hyperparameter Tuning**
+
+   - We tuned Random Forest, Gradient Boosting, and XGBoost models using RandomizedSearchCV to find the best hyperparameters efficiently.
+
+2. **Model Training and Evaluation**
+
+   - Gradient Boosting & XGBoost performed the best with a Mean MSE of 0.016 and a Mean R² Score of 0.901.
+   - Random Forest had slightly worse performance with a higher Mean MSE (0.018) and a lower Mean R² Score (0.887).
+
+3. **Final Model Selection**
+
+   - Since XGBoost had the lowest Mean MSE and highest R², it was selected as the final model.
+   - Results were then saved as final_predictions.csv for submission or further evaluation.
