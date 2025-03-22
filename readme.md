@@ -1,5 +1,8 @@
 # House Price Prediction System
 
+## Dashboard
+<img width="1668" alt="Screenshot 2025-03-22 at 7 52 16 PM" src="https://github.com/user-attachments/assets/3d6b4b7b-6b56-4bb4-bde3-3d66e73717fc" />
+
 ## Project Description
 The House Price Prediction System is a comprehensive machine learning project designed to predict the sale prices of residential properties based on various features. This project aims to leverage historical data to build a predictive model that can assist buyers, sellers, and real estate professionals in making informed decisions regarding property transactions.
 
@@ -58,5 +61,8 @@ The dataset used for this project is derived from the [House Prices - Advanced R
 - **Voting Regressor + Stacking Model performed the best.**
 - **Stacking approach improved performance over individual models.**
 - **Feature selection and encoding significantly impacted accuracy.**
+
+## Kaggle 
+<img width="1209" alt="Screenshot 2025-03-22 at 7 54 40 PM" src="https://github.com/user-attachments/assets/03d5f39e-cacc-4067-9bca-a5c389ab9c14" />
 
 
